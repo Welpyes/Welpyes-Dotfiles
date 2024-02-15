@@ -1,2 +1,3 @@
-# Welpyes-Dotfiles
-dotfiles containing the programs/tools i used to customize windows up my fancy.
+<div align="center">
+ <h1>AMOGUS</h1>
+ i literally just dump anything that i use here
