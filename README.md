@@ -35,7 +35,4 @@ put [fetch.ps1](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/fetch.ps1)
 you can make a custom command by puting
 `function fetch {pwsh -File 'C:\Users\(your username)\fetch.ps1'}`
 into your powershell profile
-you can access it by using `notepad .$PROFILE`
-
-
-    
+  you can access it by using `notepad .$PROFILE`
