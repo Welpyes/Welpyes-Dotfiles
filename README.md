@@ -15,8 +15,8 @@ you can use `git clone https://github.com/Welpyes/Welpyes-Dotfiles` if you wanna
 
 ## [Yasb](https://github.com/da-rth/yasb) (yet another status bar)
 ### its a highly configurable status bar that runs on python
-I use this status bar since its fast and realy easy to configure
-the only downside of using yasb is its currently buggy and the `offset` setting is currently not available.
+I use this status bar since its fast and really easy to configure
+<br />the only downside of using yasb is its currently buggy and the `offset` setting is currently not available.
 
 you can use my setup like my [config.yaml](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/yasb%20stuff/config.yaml) and the [styles.css](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/yasb%20stuff/styles.css) from here
 <br />you can put them in the `\Users\(your user)\.yasb` folder to be able to use them
