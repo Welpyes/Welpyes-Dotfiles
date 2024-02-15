@@ -7,6 +7,7 @@
 
 ### stuffs atm
 - [yasb](https://github.com/Welpyes/Welpyes-Dotfiles?tab=readme-ov-file#yasb-yet-another-status-bar)
+- [FancyWM](https://github.com/FancyWM/fancywm)
 
 
 ## install
@@ -29,3 +30,7 @@ put the [requirements.txt](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main
 open the terminal and use `cd .\Downloads\` and 
 <br />then execute `pip install -r requirements.txt`
 
+##  [FancyWM](https://github.com/FancyWM/fancywm)
+FancyWM is a dynamic tiling window manager for Windows 10/11
+<br />
+<br /> i use this as a wm to make my desktop more organized so its not full of sht
