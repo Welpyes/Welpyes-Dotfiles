@@ -8,6 +8,10 @@
 ### stuffs atm
 - [yasb](https://github.com/Welpyes/Welpyes-Dotfiles?tab=readme-ov-file#yasb-yet-another-status-bar)
 
+
+## you can use `git clone https://github.com/Welpyes/Welpyes-Dotfiles` if you wanna use the sht here
+
+
 ## [Yasb](https://github.com/da-rth/yasb) (yet another status bar)
 ### its a highly configurable status bar that runs on python
 I use this status bar since its fast and realy easy to configure
