@@ -9,7 +9,8 @@
 - [yasb](https://github.com/Welpyes/Welpyes-Dotfiles?tab=readme-ov-file#yasb-yet-another-status-bar)
 
 
-## you can use `git clone https://github.com/Welpyes/Welpyes-Dotfiles` if you wanna use the sht here
+## install
+you can use `git clone https://github.com/Welpyes/Welpyes-Dotfiles` if you wanna use the sht here
 
 
 ## [Yasb](https://github.com/da-rth/yasb) (yet another status bar)
