@@ -7,7 +7,7 @@
 
 ### stuffs atm
 - [yasb](https://github.com/Welpyes/Welpyes-Dotfiles?tab=readme-ov-file#yasb-yet-another-status-bar)
-- [FancyWM](https://github.com/FancyWM/fancywm)
+- [FancyWM](https://github.com/Welpyes/Welpyes-Dotfiles#fancywm)
 
 
 ## install
