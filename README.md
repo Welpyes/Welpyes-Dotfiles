@@ -7,7 +7,7 @@
 
 ### stuffs atm
 - [yasb](https://github.com/Welpyes/Welpyes-Dotfiles?tab=readme-ov-file#yasb-yet-another-status-bar)
-- fetch
+- [fetch](https://github.com/Welpyes/Welpyes-Dotfiles#custom-fetchby-hexality)
 
 ## [Yasb](https://github.com/da-rth/yasb) (yet another status bar)
 ### its a highly configurable status bar that runs on python
