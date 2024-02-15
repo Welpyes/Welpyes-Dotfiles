@@ -18,7 +18,7 @@ you can use `git clone https://github.com/Welpyes/Welpyes-Dotfiles` if you wanna
 I use this status bar since its fast and really easy to configure
 <br />the only downside of using yasb is its currently buggy and the `offset` setting is currently not available.
 
-you can use my setup like my [config.yaml](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/yasb%20stuff/config.yaml) and the [styles.css](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/yasb%20stuff/styles.css) from here
+you can use my setup like [config.yaml](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/yasb%20stuff/config.yaml) and the [styles.css](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/yasb%20stuff/styles.css) from here
 <br />you can put them in the `\Users\(your user)\.yasb` folder to be able to use them
 <br />i'll keep them updated as much as i can.
 
