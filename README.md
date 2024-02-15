@@ -7,7 +7,6 @@
 
 ### stuffs atm
 - [yasb](https://github.com/Welpyes/Welpyes-Dotfiles?tab=readme-ov-file#yasb-yet-another-status-bar)
-- [fetch](https://github.com/Welpyes/Welpyes-Dotfiles#custom-fetchby-hexality)
 
 ## [Yasb](https://github.com/da-rth/yasb) (yet another status bar)
 ### its a highly configurable status bar that runs on python
@@ -25,14 +24,3 @@ put the [requirements.txt](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main
 open the terminal and use `cd .\Downloads\` and 
 then execute `pip install -r requirements.txt`
 
-## Custom fetch(by [@Hexality](https://github.com/Hexality))
-### a fetch command made by [@Hexality](https://github.com/Hexality) 
-simillar to Neofetch but its only for windows, its made in powershell stuff(idk)
-you can customize this if you know what you are doing(i dont)
-
-put [fetch.ps1](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/fetch.ps1) into your users folder and you can basically access it by using `pwsh fetch.ps1` in the terminal(Powershell)
-
-you can make a custom command by puting
-`function fetch {pwsh -File 'C:\Users\(your username)\fetch.ps1'}`
-into your powershell profile.
- you can access it by using `notepad .$PROFILE`
