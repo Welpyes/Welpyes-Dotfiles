@@ -5,6 +5,10 @@
 
 <img align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/6998d9150582e0bb0339c1e987d6914fbf752d96/Screenshot%20(1).png">
 
+### stuffs atm
+- [yasb](https://github.com/Welpyes/Welpyes-Dotfiles?tab=readme-ov-file#yasb-yet-another-status-bar)
+- fetch
+
 ## [Yasb](https://github.com/da-rth/yasb) (yet another status bar)
 ### its a highly configurable status bar that runs on python
 I use this status bar since its fast and realy easy to configure
@@ -20,3 +24,18 @@ i'll keep them updated as much as i can.
 put the [requirements.txt](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/yasb%20stuff/requirements.txt) in your `downloads` folder and
 open the terminal and use `cd .\Downloads\` and 
 then execute `pip install -r requirements.txt`
+
+## Custom fetch(by [@Hexality](https://github.com/Hexality))
+### a fetch command made by [@Hexality](https://github.com/Hexality) 
+simillar to Neofetch but its only for windows, its made in powershell stuff(idk)
+you can customize this if you know what you are doing(i dont)
+
+put [fetch.ps1](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/fetch.ps1) into your users folder and you can basically access it by using `pwsh fetch.ps1` in the terminal(Powershell)
+
+you can make a custom command by puting
+`function fetch {pwsh -File 'C:\Users\(your username)\fetch.ps1'}`
+into your powershell profile
+you can access it by using `notepad .$PROFILE`
+
+
+    
