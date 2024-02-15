@@ -16,7 +16,7 @@ i'll keep them updated as much as i can.
 
 #### the installation is found in the [Yasb](https://github.com/da-rth/yasb) github page 
 ### BUT
-#### Make sure to use my [requirements.txt](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/yasb%20stuff/requirements.txt) instead of the one in the yasb github since its currently outdated and yasb would not work
+#### Make sure to use my [requirements.txt](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/yasb%20stuff/requirements.txt) instead of the one in the [yasb github](https://github.com/da-rth/yasb) since its currently outdated and yasb would not work
 put the [requirements.txt](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/yasb%20stuff/requirements.txt) in your `downloads` folder and
-open the terminal and use `cd .\Downloads\` and
+open the terminal and use `cd .\Downloads\` and 
 then execute `pip install -r requirements.txt`
