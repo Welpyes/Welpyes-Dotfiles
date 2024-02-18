@@ -17,6 +17,20 @@
 - **Cursor:** [Blue Archive Cursor](https://github.com/makipom/BlueArchive-Cursors)
 - **Fetch:** [Fetch](https://github.com/Hexality/fetch) by [@Hexality](https://github.com/Hexality)
 
+
 ## Quick bits
 
-### Yasb
+### Fetch
+Its a Powershell-based fetch thing by [@Hexality](https://github.com/Hexality) similar to [neofetch](https://github.com/dylanaraps/neofetch),
+<br> It can be installed on [powershell 7](https://github.com/PowerShell/PowerShell) by using:
+```ps1
+irm https://raw.githubusercontent.com/Hexality/fetch/main/install.ps1 | iex
+```
+Huge thanks to [@Hexality](https://github.com/Hexality) for making this gorgeous lookin fetch
+
+### [yasb](https://github.com/da-rth/yasb)
+
+
+
+## Screenshots
+![image](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/2024-02-18%2020_58_53-Greenshot.png)
