@@ -1,8 +1,7 @@
-
-# Amogus Files
-I put everything i use here to make windows up my fancy
+<h1 align="center">Amogus Files
+<br><h5 align="center">I put everything i use here to make windows up my fancy<br>
  
-#### disclaimer: I am not responsible if you destroy your<br> windows installation with these tools/programs<br> **DO AT YOUR OWN RISK**
+<h3 align="center">disclaimer: I am not responsible if you destroy your<br> windows installation with these tools/programs<br> **DO AT YOUR OWN RISK**
 
 
 ## Info
@@ -19,3 +18,5 @@ I put everything i use here to make windows up my fancy
 - **Fetch:** Fetch by [@Hexality](https://github.com/Hexality)
 
 ## Quick bits
+
+### Yasb
