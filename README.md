@@ -15,7 +15,7 @@
 - **Theme mods:** [UltraUX Theme Patcher](https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en) & [WinAero Tweaker](https://winaero.com/downloads/winaerotweaker.zip)
 - **Theme:** [ArcX(Arc dark)](https://www.deviantart.com/niivu/art/ARC-X-for-Windows-10-772549960)
 - **Cursor:** [Blue Archive Cursor](https://github.com/makipom/BlueArchive-Cursors)
-- **Fetch:** Fetch by [@Hexality](https://github.com/Hexality)
+- **Fetch:** [Fetch](https://github.com/Hexality/fetch) by [@Hexality](https://github.com/Hexality)
 
 ## Quick bits
 
