@@ -28,9 +28,14 @@ irm https://raw.githubusercontent.com/Hexality/fetch/main/install.ps1 | iex
 ```
 Huge thanks to [@Hexality](https://github.com/Hexality) for making this gorgeous lookin fetch
 
-### [yasb](https://github.com/da-rth/yasb)
-
-
+## [yasb(Yet Another Status Bar)](https://github.com/da-rth/yasb)
+A highly configurable cross-platform (Windows) status bar written in Python.
+<br>  
+![image](https://github.com/da-rth/yasb/blob/main/img/yasb_bar.png)
+<br>  
+<br> you can use my [config](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/config.yaml) and [styles.css](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/styles.css)
+<br> All you need to do is to put the files in `/users/(username)/.yasb`
+<br> **note: backup your old configs before replacing it with mine**
 
 ## Screenshots
 ![image](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/2024-02-18%2020_58_53-Greenshot.png)
