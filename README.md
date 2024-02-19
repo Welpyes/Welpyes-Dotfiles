@@ -31,7 +31,7 @@ Huge thanks to [@Hexality](https://github.com/Hexality) for making this gorgeous
 ## [yasb(Yet Another Status Bar)](https://github.com/da-rth/yasb)
 A highly configurable cross-platform (Windows) status bar written in Python.
 <br>  
-![image](https://imgur.com/a/bArijnt)
+![image](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/Screenshot%202024-02-19%20135638.png)
 <br>  
 <br> you can use my [config](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/config.yaml) and [styles.css](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/styles.css)
 <br> All you need to do is to put the files in `/users/(username)/.yasb`
