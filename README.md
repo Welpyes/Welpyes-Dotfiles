@@ -16,13 +16,14 @@
 - **Theme:** [ArcX(Arc dark)](https://www.deviantart.com/niivu/art/ARC-X-for-Windows-10-772549960)
 - **Cursor:** [Blue Archive Cursor](https://github.com/makipom/BlueArchive-Cursors)
 - **Fetch:** [Fetch](https://github.com/Hexality/fetch) by [@Hexality](https://github.com/Hexality)
-
+- **Visualizer:** [Cava](https://github.com/karlstav/cava)
+ 
 
 ## Quick bits
 - **[Fetch](https://github.com/Welpyes/Welpyes-Dotfiles#fetch)**
 - **[yasb](https://github.com/Welpyes/Welpyes-Dotfiles#yasbyet-another-status-bar)**
 - **[FancyWM](https://github.com/Welpyes/Welpyes-Dotfiles#fancywm)**
-
+- **[Cava](https://github.com/Welpyes/Welpyes-Dotfiles#Cava)**
 
 ## Fetch
 Its a Powershell-based fetch thing by [@Hexality](https://github.com/Hexality) similar to [neofetch](https://github.com/dylanaraps/neofetch),
@@ -90,3 +91,9 @@ you can get my [settings.json](https://github.com/Welpyes/Welpyes-Dotfiles/blob/
 - MoveToDesktop5: LeftAlt + LeftShift + D5
 </details>
 
+## Cava
+Cava is a customizable Cross-platform Audio Visualizer that runs on the terminal
+<br><https://github.com/karlstav/cava>
+<br><img src="https://github.com/karlstav/cava/blob/master/example_files/cava.gif?raw=true" align="center" width="400px">
+
+you can download the .exe file from this repo :D
