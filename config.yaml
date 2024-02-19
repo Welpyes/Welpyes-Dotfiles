@@ -79,24 +79,24 @@ bars:
       position: "top"
       center: true
     blur_effect:
-      enabled: false
+      enabled: true
       acrylic: false
       dark: false
     window_flags:
       always_on_top: false
       windows_app_bar: true
     dimensions:
-      width: "98%"
-      height: 32
+      width: "100%"
+      height: 35
     padding:
       top: 0
-      left: 0
+      left: 5
       bottom: 0
-      right: 0
+      right: 5
     widgets:
       left:   ["user_button", "explorer", "active_window"]
       center: ["clock"]
-      right:  ["weather", "ip_info", "cpu"]
+      right:  ["weather", "ip_info", "wifi", "cpu"]
 
 # widgets:
   # my-clock-widget:
@@ -365,7 +365,7 @@ widgets:
     options:
       label: "{win[process][name]}"
       label_alt: "Desktop"
-      label_no_window: "Welpiece"
+      label_no_window: "{user}"
       max_length: 48
       max_length_ellipsis: "..."
       monitor_exclusive: false
@@ -380,10 +380,10 @@ widgets:
     options:
         label: "{%I:%M %p}"
         label_alt: "{%B, %Y}"
-        timezones: ["Asia/Manila"] #CHANGE THIS TO YOUR TIMEZONE
+        timezones: ["Asia/Manila"] # change this to your timezone
         callbacks:
           on_middle: "exec explorer.exe shell:Appsfolder\\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
-          on_right: "toggle_lable"
+          on_right: "toggle_label"
 
   cpu:
     type: "yasb.cpu.CpuWidget"
@@ -401,7 +401,7 @@ widgets:
         - '\u2586' # 60%
         - '\u2587' # 70%
         - '\u2588' # 80%+
-      histogram_num_columns: 10
+      histogram_num_columns: 7
 
   memory:
     type: "yasb.memory.MemoryWidget"
@@ -471,13 +471,14 @@ widgets:
       exec_options:
         run_once: true
       callbacks:
+        on_left: "exec cmd exe /c start ms-settings:yourinfo"
         on_right: "toggle_label"
 
   ip_info:
     type: "yasb.custom.CustomWidget"
     options:
-      label: "\uf450 {data[city]}, {data[region]}"
-      label_alt: "\uf3c5 {data[ip]} [{data[country]}]"
+      label: "\uf450 {data[city]}"
+      label_alt: "\uf3c5 {data[timezone]} [{data[country]}]"
       class_name: "ip-info-widget"
       exec_options:
         run_cmd: "curl.exe https://ipinfo.io"
@@ -495,7 +496,7 @@ widgets:
       label_alt: "\uf0c2 {data[current_condition][0][weatherDesc][0][value]}"
       class_name: "weather-widget"
       exec_options:
-        run_cmd: "curl.exe  wttr.in/vancouver?format=j1" #CHANGE THIS TO YOUR CITY
+        run_cmd: "curl.exe  wttr.in/Manila?format=j1" #replace this with your city name
         # run every hour
         run_interval: 3600000
         return_format: "json"
@@ -511,7 +512,7 @@ widgets:
       exec_options:
         run_once: true
       callbacks:
-        on_left: "exec cmd /c start (browser-name-here)"
+        on_left: "exec cmd /c start msedge" # you can replace this with your browser
 
   powershell:
     type: "yasb.custom.CustomWidget"
@@ -534,4 +535,4 @@ widgets:
         run_once: true
       callbacks: 
         on_left: "exec cmd /c start explorer"
-    
+
