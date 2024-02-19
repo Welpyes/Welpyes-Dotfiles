@@ -1,16 +1,16 @@
 * {
     /* Bar measurement icons: https://github.com/and3rson/graph-bars-font */
     /* Icon set: https://fontawesome.com/v5.15/how-to-use/on-the-desktop/setup/getting-started */
-    font-family: 'JetBrainsMonoNL Nerd Font';
+    font-family: 'JetBrainsMono Nerd Font';
     font-size: 14px;
-    color: #9fa0d4;
+    color: #c7c7df;
 }
 
 .bar {
-    background: rgba(21, 20, 36, 0.0);
-    border: 1px solid #4e525f;
-    padding: 0 1px;
-    border-radius: 5px;
+    background: rgba(47, 54, 72, 0.3);
+    border: 1px solid #898d9c;
+    padding: 0 0px;
+    border-radius: 10px;
 }
 
 .container-right .widget {
@@ -24,10 +24,10 @@
 }
 
 .container-left .widget * {
-  color: #9fa0d4;
+  color: #454569;
 }
 .container-right .widget * {
-  color: #9fa0d4;
+  color: #454569;
 }
 .komorebi-workspaces {
   margin-left: 0;
@@ -59,15 +59,18 @@
 .custom-widget {
     padding: 3px 6px;
     font-size: 14px;
-    background: rgba(0, 0, 0, 0.0);
+    background: rgb(85, 204, 188);
     border: 1px solid #4e525f;
     border-radius: 6;
 }
 .custom-widget .icon {
   font-size: 13px;
 }
+.custom-widget .label {
+  margin: 2px 0px 2px 0px;
+}
 .custom-widget:hover {
-  background: #6d6e8a;
+  background: rgba(192, 192, 192, 0.849);
 }
 .custom-widget .icon.icon-left {
     margin-right: 5px;
@@ -88,10 +91,11 @@
 .memory-widget .label,
 .traffic-widget .label,
 .battery-widget .label {
-  padding: 2px 5px;
+  padding: 2px;
   font-size: 14px;
   border-radius: 5px;
   border: 1px solid #4e525f;
+  margin: 0px 0px 0px 0px;
 }
 
 .traffic-widget .label {
@@ -99,11 +103,13 @@
 }
 
 .wifi-widget .label {
-  background: rgba(0, 0, 0, 0.0);
+  background: rgb(35, 224, 238);
+  color: #404053;
 }
 
 .cpu-widget .label {
-  background: rgba(0, 0, 0, 0.0);
+  background: rgba(103, 152, 199, 1.0);
+  padding: 0px 0px 0 0px;
 }
 
 .battery-widget .label.status-critical {
@@ -130,18 +136,18 @@
 }
 
 .memory-widget .label {
-  background: rgba(0, 0, 0, 0.0);
+  background: rgb(40, 146, 67);
 }
 .active-window-widget {
   margin-left: 5px;
 }
 .active-window-widget .label {
   padding: 0px 0px 0 0px;
-  color: #9fa0d4;
-  background: rgba(17, 20, 43, 0.61);
+  color: #30304e;
+  background: rgb(153, 224, 120);
   margin-bottom: -1px;
   border-radius: 3px;
-  margin: 2px;
+  margin: 0px;
   border: 1px solid #4e525f;
 }
 
@@ -152,8 +158,11 @@
 }
 
 .clock-widget .label {
-  color: #9fa0d4;
-  background: rgba(17, 20, 43, 0.61);
-  border: 1px solid #4e525f;
+  color: #c7c7df;
+  font-size: 15px;
+  background: rgba(17, 20, 43, 0.0);
+  border: 0px solid #4e525f;
   border-radius: 3px;
+  padding-bottom: -1px;
+  margin: 2px 0px 2px 0px;
 }
