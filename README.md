@@ -19,6 +19,9 @@
 
 
 ## Quick bits
+- **[Fetch](https://github.com/Welpyes/Welpyes-Dotfiles/edit/main/README.md#fetch)**
+- **[yasb](https://github.com/Welpyes/Welpyes-Dotfiles/edit/main/README.md#yasb)**
+
 
 ## Fetch
 Its a Powershell-based fetch thing by [@Hexality](https://github.com/Hexality) similar to [neofetch](https://github.com/dylanaraps/neofetch),
