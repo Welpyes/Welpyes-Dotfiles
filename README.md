@@ -20,7 +20,7 @@
 
 ## Quick bits
 
-### Fetch
+## Fetch
 Its a Powershell-based fetch thing by [@Hexality](https://github.com/Hexality) similar to [neofetch](https://github.com/dylanaraps/neofetch),
 <br> It can be installed on [powershell 7](https://github.com/PowerShell/PowerShell) by using:
 ```ps1
@@ -28,7 +28,7 @@ irm https://raw.githubusercontent.com/Hexality/fetch/main/install.ps1 | iex
 ```
 Huge thanks to [@Hexality](https://github.com/Hexality) for making this gorgeous lookin fetch
 
-### [yasb(Yet Another Status Bar)](https://github.com/da-rth/yasb)
+## [yasb(Yet Another Status Bar)](https://github.com/da-rth/yasb)
 A highly configurable cross-platform (Windows) status bar written in Python.
 <br>  
 ![image](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/Screenshot%202024-02-19%20135638.png)
