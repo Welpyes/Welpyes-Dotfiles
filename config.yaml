@@ -445,8 +445,8 @@ widgets:
   wifi:
     type: "yasb.wifi.WifiWidget"
     options:
-        label: "\udb80\ude00 Globe Fiber"
-        label_alt: "\udb80\ude00 Ethernet"
+        label: "\udb80\ude00"
+        label_alt: "\udb80\ude00"
         update_interval: 5000
         wifi_icons:
           - "\udb82\udd2e"  # 0% strength (no wifi)
