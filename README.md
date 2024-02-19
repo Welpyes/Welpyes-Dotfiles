@@ -19,8 +19,9 @@
 
 
 ## Quick bits
-- **[Fetch](https://github.com/Welpyes/Welpyes-Dotfiles/edit/main/README.md#fetch)**
-- **[yasb](https://github.com/Welpyes/Welpyes-Dotfiles/edit/main/README.md#yasb)**
+- **[Fetch](https://github.com/Welpyes/Welpyes-Dotfiles#fetch)**
+- **[yasb](https://github.com/Welpyes/Welpyes-Dotfiles#yasbyet-another-status-bar)**
+- **[FancyWM](https://github.com/Welpyes/Welpyes-Dotfiles#fancywm)**
 
 
 ## Fetch
