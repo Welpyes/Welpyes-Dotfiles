@@ -5,7 +5,7 @@
 
 
 ## Info
-<img src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/2024-02-18%2021_00_28-Greenshot.png?raw=true" alt="My current desktop :D" align="right" width="400px">
+<img src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-19%2014_39_40-Greenshot.png?raw=true" alt="My current desktop :D" align="right" width="400px">
 
 - **OS:** Windows 10
 - **Bar:** [yasb](https://github.com/da-rth/yasb)
@@ -38,4 +38,4 @@ A highly configurable cross-platform (Windows) status bar written in Python.
 <br> **note: backup your old configs before replacing it with mine**
 
 ## Screenshots
-![image](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/2024-02-18%2020_58_53-Greenshot.png)
+
