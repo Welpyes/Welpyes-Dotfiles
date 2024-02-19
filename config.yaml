@@ -380,7 +380,7 @@ widgets:
     options:
         label: "{%I:%M %p}"
         label_alt: "{%B, %Y}"
-        timezones: ["Asia/Manila"]
+        timezones: ["Asia/Manila"] #CHANGE THIS TO YOUR TIMEZONE
         callbacks:
           on_middle: "exec explorer.exe shell:Appsfolder\\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
           on_right: "toggle_lable"
@@ -495,7 +495,7 @@ widgets:
       label_alt: "\uf0c2 {data[current_condition][0][weatherDesc][0][value]}"
       class_name: "weather-widget"
       exec_options:
-        run_cmd: "curl.exe  wttr.in/vancouver?format=j1"
+        run_cmd: "curl.exe  wttr.in/vancouver?format=j1" #CHANGE THIS TO YOUR CITY
         # run every hour
         run_interval: 3600000
         return_format: "json"
