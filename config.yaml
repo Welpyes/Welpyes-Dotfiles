@@ -462,17 +462,17 @@ widgets:
 
   # Some custom widgets
 
-  user_button:
-    type: "yasb.custom.CustomWidget"
-    options:
-      label: "\uf2bd Welpyes"
-      label_alt: "Welpyes"
-      class_name: "user-widget"
-      exec_options:
-        run_once: true
-      callbacks:
-        on_left: "exec cmd exe /c start ms-settings:yourinfo"
-        on_right: "toggle_label"
+ # user_button:
+ #   type: "yasb.custom.CustomWidget"
+ #   options:
+ #     label: "\uf2bd Welpyes"
+ #     label_alt: "Welpyes"
+ #     class_name: "user-widget"
+ #     exec_options:
+ #       run_once: true
+ #     callbacks:
+ #       on_left: "exec cmd exe /c start ms-settings:yourinfo"
+ #       on_right: "toggle_label"
 
   ip_info:
     type: "yasb.custom.CustomWidget"
@@ -536,3 +536,14 @@ widgets:
       callbacks: 
         on_left: "exec cmd /c start explorer"
 
+  user_button:
+    type: "yasb.active_window.ActiveWindowWidget"
+    options:
+      label: "\uf2bd {win[process][username]}"
+      label_alt: "Desktop"
+      label_no_window: "{user}"
+      max_length: 48
+      max_length_ellipsis: "..."
+      monitor_exclusive: false
+      callbacks:
+        on_left: "exec cmd exe /c start ms-settings:yourinfo"
