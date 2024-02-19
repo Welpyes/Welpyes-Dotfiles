@@ -45,9 +45,9 @@ FancyWM is a dynamic tiling window manager for Windows 10/11.
 its a really good window manager in general
 
 you can get my [settings.json](https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/fancywm%20setting/settings.json) by downloading it from this repo
-all you have to do is to put it inside your FancyWM folder and you should be good
+<br>all you have to do is to put it inside your FancyWM folder and you should be good
 <br>as for me its located at `AppData\Local\Packages\2203VeselinKaraganev.FancyWM_9x2ndwrcmyd2c\LocalCache\Roaming\FancyWM`
-although it might be different for you.
+<br>although it might be different for you.
 
 <details>
 <summary><b>Keybinds</b></summary>
