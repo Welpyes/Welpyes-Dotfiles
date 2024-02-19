@@ -94,9 +94,9 @@ bars:
       bottom: 0
       right: 0
     widgets:
-      left:   ["wifi","user_button"]
-      center: ["active_window"]
-      right:  ["clock", "cpu", "memory"]
+      left:   ["user_button", "explorer", "active_window"]
+      center: ["clock"]
+      right:  ["weather", "ip_info", "cpu"]
 
 # widgets:
   # my-clock-widget:
@@ -465,19 +465,18 @@ widgets:
   user_button:
     type: "yasb.custom.CustomWidget"
     options:
-      label: "{user}"
-      label_alt: "Explorer"
-      class_name: "explorer-widget"
+      label: "\uf2bd Welpyes"
+      label_alt: "Welpyes"
+      class_name: "user-widget"
       exec_options:
         run_once: true
       callbacks:
-        on_left: "exec explorer.exe"
         on_right: "toggle_label"
 
   ip_info:
     type: "yasb.custom.CustomWidget"
     options:
-      label: "\uf3c5 {data[city]}, {data[region]}"
+      label: "\uf450 {data[city]}, {data[region]}"
       label_alt: "\uf3c5 {data[ip]} [{data[country]}]"
       class_name: "ip-info-widget"
       exec_options:
@@ -496,8 +495,43 @@ widgets:
       label_alt: "\uf0c2 {data[current_condition][0][weatherDesc][0][value]}"
       class_name: "weather-widget"
       exec_options:
-        run_cmd: "curl.exe  wttr.in/Manila?format=j1"
+        run_cmd: "curl.exe  wttr.in/vancouver?format=j1"
         # run every hour
         run_interval: 3600000
         return_format: "json"
+      callbacks:
+        on_left: "toggle_label"
+    
+  browser:
+    type: "yasb.custom.CustomWidget"
+    options:
+      label: "\uf282"
+      label_alt: "browser"
+      class_name: "browser-button"
+      exec_options:
+        run_once: true
+      callbacks:
+        on_left: "exec cmd /c start (browser-name-here)"
+
+  powershell:
+    type: "yasb.custom.CustomWidget"
+    options:
+      label: "\ue795"
+      label_alt: "Pwsh"
+      class_name: "powershell_button"
+      exec_options:
+        run_once: true
+      callbacks: 
+        on_left: "exec cmd /c start powershell"
+  
+  explorer:
+    type: "yasb.custom.CustomWidget"
+    options:
+      label: "\ueaf7"
+      label_alt: "file manager"
+      class_name: "explorer_button"
+      exec_options:
+        run_once: true
+      callbacks: 
+        on_left: "exec cmd /c start explorer"
     
