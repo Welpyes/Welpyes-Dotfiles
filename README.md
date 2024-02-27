@@ -4,9 +4,10 @@
 <h3 align="center">disclaimer: I am not responsible if you destroy your<br> windows installation with these tools/programs<br> **DO AT YOUR OWN RISK**
 
 
-## Info
-<img src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-27%2020_34_47-Greenshot.png" alt="My current desktop :D" align="right" width="400px">
+## screenshot
+<img src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-27%2020_34_47-Greenshot.png" alt="My current desktop :D" align="center" width="800px">
 
+## info
 - **OS:** Windows 10
 - **Bar:** [yasb](https://github.com/da-rth/yasb)
 - **App Launcher:** [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher)
