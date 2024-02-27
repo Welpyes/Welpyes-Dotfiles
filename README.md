@@ -47,7 +47,7 @@ A highly configurable cross-platform (Windows) status bar written in Python.
 <summary><b>How to install</b></summary>
 clone this repository: https://github.com/Welpyes/welpyes-yasb
 
-- Install Python 3.10
+- Install Python(any ver above 3.10 should be fine)
 - Install required Python Modules:
    `pip install -r requirements.txt`
 - Create the directory `C:/Users/{username}/.yasb/` and copy styles.css and config.yaml into folder.
