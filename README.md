@@ -4,27 +4,24 @@
 <h3 align="center">disclaimer: I am not responsible if you destroy your<br> windows installation with these tools/programs<br> **DO AT YOUR OWN RISK**
 
 
-## screenshot
-<img src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-28%2003_16_19-Greenshot.png" width="800px" align="center">
-
 ## info
-- **OS:** Windows 10
-- **Bar:** [yasb](https://github.com/da-rth/yasb)
-- **App Launcher:** [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher)
-- **WM:** [FancyWM](https://github.com/FancyWM/fancywm)
-- **Taskbar mods:** [Translucenttb](https://github.com/TranslucentTB/TranslucentTB)
-- **Theme mods:** [UltraUX Theme Patcher](https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en) & [WinAero Tweaker](https://winaero.com/downloads/winaerotweaker.zip)
+- **Operating System:** Windows 10
+- **Status Bar:** [yasb](https://github.com/da-rth/yasb)
+- **Application Launcher:** [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher)
+- **Window Manager:** [FancyWM](https://github.com/FancyWM/fancywm)
+- **Theme Patchers:** [UltraUX Theme Patcher](https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en) & [WinAero Tweaker](https://winaero.com/downloads/winaerotweaker.zip)
 - **Theme:** [Dark by KDr3w)](https://www.deviantart.com/kdr3w/art/Dark-845402016)
 - **Cursor:** [Blue Archive Cursor](https://github.com/makipom/BlueArchive-Cursors)
 - **Fetch:** [Fetch](https://github.com/Hexality/fetch) by [@Hexality](https://github.com/Hexality)
 - **Visualizer:** [Cava](https://github.com/karlstav/cava)
  
+## Screenshots
+<img align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-28%2003_16_19-Greenshot.png">
+<img align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-28%2003_59_10-Greenshot.png">
 
-## Quick bits
-- **[Fetch](https://github.com/Welpyes/Welpyes-Dotfiles#fetch)**
-- **[yasb](https://github.com/Welpyes/Welpyes-Dotfiles#yasbyet-another-status-bar)**
-- **[FancyWM](https://github.com/Welpyes/Welpyes-Dotfiles#fancywm)**
-- **[Cava](https://github.com/Welpyes/Welpyes-Dotfiles#Cava)**
+## Installation
+<details>
+<summary><b>Long ass reading XD</b></summary>
 
 ## Fetch
 Its a Powershell-based fetch thing by [@Hexality](https://github.com/Hexality) similar to [neofetch](https://github.com/dylanaraps/neofetch),
@@ -110,3 +107,4 @@ Cava is a customizable Cross-platform Audio Visualizer that runs on the terminal
 <br><img src="https://github.com/karlstav/cava/blob/master/example_files/cava.gif?raw=true" align="center" width="400px">
 
 you can download the .exe file from this repo :D
+</details>
