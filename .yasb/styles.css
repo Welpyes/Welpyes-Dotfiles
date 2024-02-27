@@ -1,0 +1,168 @@
+* {
+    /* Bar measurement icons: https://github.com/and3rson/graph-bars-font */
+    /* Icon set: https://fontawesome.com/v5.15/how-to-use/on-the-desktop/setup/getting-started */
+    font-family: 'JetBrainsMono Nerd Font';
+    font-size: 14px;
+    color: #c7c7df;
+}
+
+.bar {
+    background: rgba(22, 23, 24, 0.727);
+    border: 0px solid #727272;
+    padding: 0 0px;
+    border-radius: 0px;
+}
+
+.container-right .widget {
+  margin: 2px;
+  border-radius: 5px;
+}
+
+.container-left .widget {
+  margin : 2px;
+  border-radius: 5px;
+}
+
+.container-left .widget * {
+  color: #aaaaaa;
+}
+.container-right .widget * {
+  color: #aaaaaa;
+}
+.komorebi-workspaces {
+  margin-left: 0;
+}
+.ws-btn {
+    padding: 5px;
+    background: rgba(60, 56, 54, 0.4);
+    border: 1px solid rgba(168, 153, 132, 0.4);
+    margin: 2px 1px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.ws-btn:hover {
+    color: #93ffc0;
+    font-weight: bold;
+}
+
+.ws-btn.populated {
+    border-color: rgba(168, 153, 132, 1.0);
+    color: #ebdbb2;
+}
+
+.ws-btn.active {
+    background: rgba(251, 241, 199, 0.85);
+    color: #121212;
+}
+
+.custom-widget {
+    padding: 3px 6px;
+    font-size: 14px;
+    background: rgba(85, 204, 188, 0);
+    border: 0px solid #4e525f;
+    border-radius: 6;
+}
+.custom-widget .icon {
+  font-size: 13px;
+}
+.custom-widget .label {
+  margin: 2px 0px 2px 0px;
+}
+.custom-widget:hover {
+  background: rgba(192, 192, 192, 0);
+}
+.custom-widget .icon.icon-left {
+    margin-right: 5px;
+}
+.custom-widget .icon.icon-right {
+    margin-left: 5px;
+}
+.custom-widget.hostname-widget {
+    background: rgba(0, 0, 0, 0.0);
+}
+
+.custom-widget.terminal-widget {
+    font-size: 14px;
+}
+
+.cpu-widget .label,
+.wifi-widget .label,
+.memory-widget .label,
+.traffic-widget .label,
+.battery-widget .label {
+  padding: 2px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.0);
+  margin: 0px 0px 0px 0px;
+}
+
+.traffic-widget .label {
+    background: rgba(0, 0, 0, 0.0);
+}
+
+.wifi-widget .label {
+  background: rgba(0, 0, 0, 0.0);
+  color: #aaaaaa;
+}
+
+.cpu-widget .label {
+  background: rgba(0, 0, 0, 0.0);
+  padding: 0px 0px 0 0px;
+}
+
+.battery-widget .label.status-critical {
+  background: #fb4934;
+}
+.battery-widget .label.status-low {
+  background: #fe8019;
+}
+.battery-widget .label.status-medium {
+  background: #fabd2f;
+}
+.battery-widget .label.status-high {
+  background: #b8bb26;
+}
+.battery-widget .label.status-full {
+  background: #8ec07c;
+}
+.battery-widget .label.status-charging {
+  background: #8ec07c;
+}
+.battery-widget,
+.memory-widget {
+  margin: 0;
+}
+
+.memory-widget .label {
+  background: rgba(0, 0, 0, 0.0);
+}
+.active-window-widget {
+  margin-left: 5px;
+}
+.active-window-widget .label {
+  padding: 0px 0px 0 0px;
+  color: #aaaaaa;
+  background: rgba(153, 224, 120, 0);
+  margin-bottom: -1px;
+  border-radius: 3px;
+  margin: 5px;
+  border: 0px solid #4e525f;
+}
+
+.komorebi-active-layout .label {
+  color: #9fa0d4;
+  margin: -4px 2px 2px 8px;
+  font-family: Hack;
+}
+
+.clock-widget .label {
+  color: #aaaaaa;
+  font-size: 14px;
+  background: rgba(17, 20, 43, 0.0);
+  border: 0px solid #4e525f;
+  border-radius: 3px;
+  padding-bottom: -1px;
+  margin: 0px 5px 0px 0px;
+}
