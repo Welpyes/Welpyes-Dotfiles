@@ -5,7 +5,7 @@
 
 
 ## screenshot
-<img src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-27%2020_34_47-Greenshot.png" alt="My current desktop :D" width="800px">
+<img src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-27%2020_56_40-Greenshot.png" width="800px" align="center">
 
 ## info
 - **OS:** Windows 10
