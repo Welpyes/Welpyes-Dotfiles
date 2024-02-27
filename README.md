@@ -14,7 +14,7 @@
 - **WM:** [FancyWM](https://github.com/FancyWM/fancywm)
 - **Taskbar mods:** [Translucenttb](https://github.com/TranslucentTB/TranslucentTB)
 - **Theme mods:** [UltraUX Theme Patcher](https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en) & [WinAero Tweaker](https://winaero.com/downloads/winaerotweaker.zip)
-- **Theme:** [ArcX(Arc dark)](https://www.deviantart.com/niivu/art/ARC-X-for-Windows-10-772549960)
+- **Theme:** [Dark by KDr3w)](https://www.deviantart.com/kdr3w/art/Dark-845402016)
 - **Cursor:** [Blue Archive Cursor](https://github.com/makipom/BlueArchive-Cursors)
 - **Fetch:** [Fetch](https://github.com/Hexality/fetch) by [@Hexality](https://github.com/Hexality)
 - **Visualizer:** [Cava](https://github.com/karlstav/cava)
