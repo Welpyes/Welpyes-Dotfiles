@@ -1,8 +1,6 @@
 <h1 align="center">Amogus Files
 <br><h5 align="center">I put everything i use here to make windows up my fancy<br>
  
-<h3 align="center">disclaimer: I am not responsible if you destroy your<br> windows installation with these tools/programs<br> **DO AT YOUR OWN RISK**
-
 
 ## info
 - **Operating System:** Windows 10
@@ -23,15 +21,12 @@
 <details>
 <summary><b>Long ass reading XD</b></summary>
 
-## Fetch
-Its a Powershell-based fetch thing by [@Hexality](https://github.com/Hexality) similar to [neofetch](https://github.com/dylanaraps/neofetch),
-<br> It can be installed on [powershell 7](https://github.com/PowerShell/PowerShell) by using:
-```ps1
-irm https://raw.githubusercontent.com/Hexality/fetch/main/install.ps1 | iex
-```
-Huge thanks to [@Hexality](https://github.com/Hexality) for making this gorgeous lookin fetch
+<h3 align="center">disclaimer: I am not responsible if you destroy your<br> windows installation with these tools/programs<br> **DO AT YOUR OWN RISK**
 
-## yasb(Yet Another Status Bar)
+<div align="left">
+<details>
+<summary><h2>yasb(yet another status bar)</h2></summary>
+ 
 A highly configurable cross-platform (Windows) status bar written in Python.
 <br> https://github.com/da-rth/yasb
 <br>  
@@ -55,8 +50,20 @@ clone this repository: https://github.com/Welpyes/welpyes-yasb
 </details>
 
 <br> **note: backup your old configs before replacing it with mine**
+</details>
 
-## FancyWM
+<details>
+<summary><h2>Fetch</h2></summary>
+Its a Powershell-based fetch thing by [@Hexality](https://github.com/Hexality) similar to [neofetch](https://github.com/dylanaraps/neofetch),
+<br> It can be installed on [powershell 7](https://github.com/PowerShell/PowerShell) by using:
+```ps1
+irm https://raw.githubusercontent.com/Hexality/fetch/main/install.ps1 | iex
+```
+Huge thanks to [@Hexality](https://github.com/Hexality) for making this gorgeous lookin fetch
+</details>
+
+<details>
+<summary><h2>FancyWm</h2></summary>
 FancyWM is a dynamic tiling window manager for Windows 10/11.
 its a really good window manager in general
 <br><https://github.com/FancyWM/fancywm>
@@ -101,10 +108,14 @@ you can get my [settings.json](https://github.com/Welpyes/Welpyes-Dotfiles/blob/
 - MoveToDesktop5: LeftAlt + LeftShift + D5
 </details>
 
-## Cava
+</details>
+
+<details>
+<summary><h2>Cava</h2></summary>
 Cava is a customizable Cross-platform Audio Visualizer that runs on the terminal
 <br><https://github.com/karlstav/cava>
 <br><img src="https://github.com/karlstav/cava/blob/master/example_files/cava.gif?raw=true" align="center" width="400px">
 
 you can download the .exe file from this repo :D
+</details>
 </details>
