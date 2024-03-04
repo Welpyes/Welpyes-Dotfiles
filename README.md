@@ -26,7 +26,7 @@ run these in the terminal or powershell 7
 ```
 irm https://raw.githubusercontent.com/Welpyes/Welpyes-Dotfiles/main/install.ps1 | iex
 ```
-to install [Fetch](https://github.com/Hexality/fetch) you should run in the terminal
+to install [Fetch](https://github.com/Hexality/fetch) you should run this in the terminal
 ```
 irm https://raw.githubusercontent.com/Hexality/fetch/main/install.ps1 | iex
 ```
