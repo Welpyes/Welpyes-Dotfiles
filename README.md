@@ -20,6 +20,10 @@
 <details>
 <summary><h3>how to install</h3></summary>
 
+### Prerequisites
+- Make sure you have Python 3.10 and pip installed
+- You Have git installed
+
 <b>this script only installs [yasb](https://github.com/da-rth/yasb) and [Cava](https://github.com/karlstav/cava)(not its dependecies)</b>
 
 run these in the terminal or powershell 7
