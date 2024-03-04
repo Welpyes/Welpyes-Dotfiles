@@ -21,8 +21,10 @@
 <summary><h3>how to install</h3></summary>
 
 ### Prerequisites
-- Make sure you have Python 3.10 and pip installed
-- You Have git installed
+- Make sure you have [Python 3.10+](https://www.python.org/downloads/) and pip installed
+- You Have [git](https://git-scm.com/download/win) installed
+<br>both of these can be installed using [scoop](https://scoop.sh/)
+
 
 <b>this script only installs [yasb](https://github.com/da-rth/yasb) and [Cava](https://github.com/karlstav/cava)(not its dependecies)</b>
 
