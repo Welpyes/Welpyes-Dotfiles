@@ -36,4 +36,7 @@ to install [Fetch](https://github.com/Hexality/fetch) you should run this in the
 ```
 irm https://raw.githubusercontent.com/Hexality/fetch/main/install.ps1 | iex
 ```
+<br> after you installed them you can run the `run-silent.vbs` in the `c:\users\{your username}\welpyes-dotfiles` and you should be good to go
+
+
 </details>
