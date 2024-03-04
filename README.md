@@ -18,13 +18,16 @@
 <img align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-28%2003_59_10-Greenshot.png">
 
 <details>
-<summary><b>how to install</b></summary>
+<summary><h3>how to install</h3></summary>
 
-to install `yasb` and `cava` just run this command in powershell(MAKE SURE ITS PWSH7)<br>
+<b>this script only installs [yasb](https://github.com/da-rth/yasb) and [Cava](https://github.com/karlstav/cava)(not its dependecies)</b>
+
+run these in the terminal or powershell 7
 ```
 irm https://raw.githubusercontent.com/Welpyes/Welpyes-Dotfiles/main/install.ps1 | iex
 ```
-
-
- 
+to install [Fetch](https://github.com/Hexality/fetch) you should run in the terminal
+```
+irm https://raw.githubusercontent.com/Hexality/fetch/main/install.ps1 | iex
+```
 </details>
