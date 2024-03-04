@@ -17,3 +17,14 @@
 <img align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-28%2003_16_19-Greenshot.png">
 <img align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-28%2003_59_10-Greenshot.png">
 
+<details>
+<summary><b>how to install</b></summary>
+
+to install `yasb` and `cava` just run this command in powershell(MAKE SURE ITS PWSH7)<br>
+```
+irm https://raw.githubusercontent.com/Welpyes/Welpyes-Dotfiles/main/install.ps1 | iex
+```
+
+
+ 
+</details>
