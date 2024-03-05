@@ -26,6 +26,11 @@
 <br>both of these can be installed using [scoop](https://scoop.sh/)
 
 
+
+https://github.com/Welpyes/Welpyes-Dotfiles/assets/110968684/fdd667ad-efd0-4c79-a8fc-8209dd76d0bc
+
+
+
 <b>this script only installs [yasb](https://github.com/da-rth/yasb) and [Cava](https://github.com/karlstav/cava)(not its dependecies)</b>
 
 run these in the terminal or powershell 7
