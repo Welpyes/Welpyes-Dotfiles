@@ -539,6 +539,5 @@ widgets:
       label_alt: "\ue690"
       class_name: "personalize"
       callbacks:
-        on_left: "exec notepad++ config.lnk"
-        on_right: "exec notepad++ styles.lnk"
-
+        on_left: "exec pwsh config-link.ps1"
+        on_right: "exec pwsh styles-link.ps1"
