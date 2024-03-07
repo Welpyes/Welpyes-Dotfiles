@@ -94,7 +94,7 @@ bars:
       bottom: 0
       right: 0
     widgets:
-      left:   ["user_button", "Virtual_desktops", "customize"]
+      left:   ["user_button", "komorebi_workspaces", "customize"]
       center: ["active_window"]
       right:  ["traffic","weather", "ip_info", "clock"]
 
@@ -415,7 +415,7 @@ widgets:
   komorebi_workspaces:
     type: "komorebi.workspaces.WorkspaceWidget"
     options:
-        label_offline: "Komorebi Offline"
+        label_offline: "| 1 | 2 | 3 | 4 | 5 |"
         label_workspace_btn: "{index}"
         label_default_name: "{index}"
         label_zero_index: false
@@ -478,7 +478,7 @@ widgets:
     type: "yasb.custom.CustomWidget"
     options:
       label: "\uf450 {data[city]}"
-      label_alt: "\uf3c5 {data[timezone]} [{data[country]}]"
+      label_alt: "\ueb01 {data[timezone]} [{data[country]}]"
       class_name: "ip-info-widget"
       exec_options:
         run_cmd: "curl.exe https://ipinfo.io"
@@ -522,13 +522,6 @@ widgets:
       label_alt: " "
       class_name: "spacer-widget"
   
-  Virtual_desktops: #this doesnt work atm its just a placeholder
-    type: "yasb.custom.CustomWidget"
-    options:
-      label: "/ 1 / 2 / 3 / 4 / 5 /" 
-      label_alt: "/ 1 / 2 / 3 / 4 / 5 /" 
-      class_name: "placeholder-virt-desktop"
-  
   traffic:
     type: "yasb.traffic.TrafficWidget"
     options:
@@ -548,3 +541,4 @@ widgets:
       callbacks:
         on_left: "exec notepad++ config.lnk"
         on_right: "exec notepad++ styles.lnk"
+
