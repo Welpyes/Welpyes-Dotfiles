@@ -379,7 +379,7 @@ widgets:
     type: "yasb.clock.ClockWidget"
     options:
         label: "{%I:%M %p}"
-        label_alt: "{%B, %Y}"
+        label_alt: "{%B, %d, %Y}"
         timezones: ["Asia/Manila"] # change this to your timezone
         callbacks:
           on_middle: "exec explorer.exe shell:Appsfolder\\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
