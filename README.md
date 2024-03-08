@@ -23,7 +23,9 @@
 ### Prerequisites
 - Make sure you have [Python 3.10+](https://www.python.org/downloads/) and pip installed
 - You Have [git](https://git-scm.com/download/win) installed
-<br>both of these can be installed using [scoop](https://scoop.sh/)
+- You have Jetbrains [Nerdfonts](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip) installed
+ 
+<br><b>all of these can be installed using [scoop](https://scoop.sh/)</b>
 
 
 
