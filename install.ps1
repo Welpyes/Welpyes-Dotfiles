@@ -24,6 +24,7 @@ if ($response -eq 'y') {
     Write-Host "i dont really know the dependencies of CAVA but you can go to their github page to know" -ForegroundColor Blue
     Remove-Item -Path "$env:USERPROFILE\welpyes-dotfiles\install.ps1"
     Set-Location -Path "$env:USERPROFILE"
+    explorer $env:USERPROFILE\welpyes-dotfiles
 
 } else {
     Write-Host "Installation cancelled."
