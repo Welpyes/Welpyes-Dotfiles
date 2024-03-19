@@ -34,5 +34,4 @@ irm https://raw.githubusercontent.com/Welpyes/Welpyes-Dotfiles/main/install.ps1 
 
 <br> after you installed them you can run the `run-silent.vbs` in the `c:\users\{your username}\welpyes-dotfiles` and you should be good to go
 
-https://github.com/Welpyes/Welpyes-Dotfiles/assets/110968684/fdd667ad-efd0-4c79-a8fc-8209dd76d0bc
 </details>
