@@ -15,7 +15,7 @@
  
 ## Screenshots
 <img align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-28%2003_16_19-Greenshot.png">
-<img align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-28%2003_59_10-Greenshot.png">
+<img align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-28%2003_59_10-Greenshot.png"> 
 
 <details>
 <summary><h3>how to install</h3></summary>
@@ -24,26 +24,15 @@
 - Make sure you have [Python 3.10+](https://www.python.org/downloads/) and pip installed
 - You Have [git](https://git-scm.com/download/win) installed
 - You have Jetbrains [Nerdfonts](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip) installed
- 
 <br><b>all of these can be installed using [scoop](https://scoop.sh/)</b>
 
+<b>this script only installs [yasb](https://github.com/da-rth/yasb)
 
-
-https://github.com/Welpyes/Welpyes-Dotfiles/assets/110968684/fdd667ad-efd0-4c79-a8fc-8209dd76d0bc
-
-
-
-<b>this script only installs [yasb](https://github.com/da-rth/yasb) and [Cava](https://github.com/karlstav/cava)(not its dependecies)</b>
-
-run these in the terminal or powershell 7
 ```
 irm https://raw.githubusercontent.com/Welpyes/Welpyes-Dotfiles/main/install.ps1 | iex
 ```
-to install [Fetch](https://github.com/Hexality/fetch) you should run this in the terminal and reload the terminal<br>by using `.$PROFILE`
-```
-irm https://raw.githubusercontent.com/Hexality/fetch/main/install.ps1 | iex
-```
+
 <br> after you installed them you can run the `run-silent.vbs` in the `c:\users\{your username}\welpyes-dotfiles` and you should be good to go
 
-
+https://github.com/Welpyes/Welpyes-Dotfiles/assets/110968684/fdd667ad-efd0-4c79-a8fc-8209dd76d0bc
 </details>
