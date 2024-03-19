@@ -1,6 +1,7 @@
 <h1 align="center">Amogus Files
-<br><h5 align="center">I put everything i use here to make windows up my fancy<br>
+<br><h4 align="center">I put everything i use here to make windows up my fancy<br>
  
+<br><img align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-28%2003_16_19-Greenshot.png">
 
 ## info
 - **Operating System:** Windows 11
@@ -11,10 +12,6 @@
 - **Cursor:** [Blue Archive Cursor](https://github.com/makipom/BlueArchive-Cursors)
 - **Fetch:** [Fetch](https://github.com/Hexality/fetch) by [@Hexality](https://github.com/Hexality)
  
-## Screenshots
-<img align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-28%2003_16_19-Greenshot.png">
-<img align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/images/2024-02-28%2003_59_10-Greenshot.png"> 
-
 <details>
 <summary><h3>how to install</h3></summary>
 
