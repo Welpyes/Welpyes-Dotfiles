@@ -80,23 +80,23 @@ bars:
       center: true
     blur_effect:
       enabled: true
-      acrylic: true
+      acrylic: false
       dark: false
     window_flags:
       always_on_top: false
       windows_app_bar: true
     dimensions:
       width: "100%"
-      height: 30
+      height: 35
     padding:
-      top: 0
-      left: 0
-      bottom: 0
-      right: 0
+      top: 5
+      left: 5
+      bottom: 5
+      right: 5
     widgets:
-      left:   ["user_button", "komorebi_workspaces", "customize"]
-      center: ["active_window"]
-      right:  ["traffic","weather", "ip_info", "clock"]
+      left:   ["user_button","separator", "komorebi_workspaces","separator", "cpu", "memory","separator"]
+      center: ["clock"]
+      right:  ["separator","wifi","traffic","weather", "ip_info","separator","shutdown"]
 
 # widgets:
   # my-clock-widget:
@@ -378,7 +378,7 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-        label: "{%I:%M %p}"
+        label: "\udb85\udc4e {%B, %d, %Y at %I:%M %p}"
         label_alt: "{%B, %d, %Y}"
         timezones: ["Asia/Manila"] # change this to your timezone
         callbacks:
@@ -388,8 +388,8 @@ widgets:
   cpu:
     type: "yasb.cpu.CpuWidget"
     options:
-      label: "\uf200 {info[histograms][cpu_percent]}"
-      label_alt: "\uf200 CPU: {info[percent][total]}%"
+      label: "\uf4bc {info[percent][total]}%"
+      label_alt: "\uf4bc {info[histograms][cpu_percent]}"
       update_interval: 1000
       histogram_icons:
         - '\u2581' # 0%
@@ -406,7 +406,7 @@ widgets:
   memory:
     type: "yasb.memory.MemoryWidget"
     options:
-        label: "\ue266 {virtual_mem_free}"
+        label: "\ue266 {virtual_mem_avail}"
         label_alt: "\ue266 {virtual_mem_percent}%"
         update_interval: 5000
         callbacks:
@@ -415,9 +415,9 @@ widgets:
   komorebi_workspaces:
     type: "komorebi.workspaces.WorkspaceWidget"
     options:
-        label_offline: "| 1 | 2 | 3 | 4 | 5 |"
-        label_workspace_btn: "{index}"
-        label_default_name: "{index}"
+        label_offline: "\ueabc \ueabc \ueabc \ueabc \ueabc"
+        label_workspace_btn: "\uea71"
+        label_default_name: "\uea71"
         label_zero_index: false
         hide_empty_workspaces: false
 
@@ -445,7 +445,7 @@ widgets:
   wifi:
     type: "yasb.wifi.WifiWidget"
     options:
-        label: "\udb82\udd2f"
+        label: "\uf012  Wifi"
         label_alt: "\udb80\ude00"
         update_interval: 5000
         wifi_icons:
@@ -506,7 +506,7 @@ widgets:
   user_button:
     type: "yasb.active_window.ActiveWindowWidget"
     options:
-      label: "\uf2bd {win[process][username]}"
+      label: "\uf2be"
       label_alt: "Desktop"
       label_no_window: "{user}"
       max_length: 48
@@ -525,19 +525,25 @@ widgets:
   traffic:
     type: "yasb.traffic.TrafficWidget"
     options:
-      label: "\ueb01 \ueab4 {download_speed}"
-      label_alt: "\ueb01 \ueab4 {upload_speed}"
+      label: "\uf0dc {download_speed}"
+      label_alt: "\uf0dc {upload_speed}"
       update_interval: 1000 # Update interval should be a multiple of 1000
       callbacks:
         on_right: "exec cmd /c Taskmgr"
         on_left: "toggle_label"
 
-  customize:
+  shutdown:
     type: "yasb.custom.CustomWidget"
-    options:
-      label: "\ue690"
-      label_alt: "\ue690"
-      class_name: "personalize"
+    options: 
+      label: "\uf011 "
+      label_alt: "\uf011 "
+      class_name: "shutdown-button"
       callbacks:
-        on_left: "exec pwsh config-link.ps1"
-        on_right: "exec pwsh styles-link.ps1"
+        on_left: "exec cmd shutdown /s /t 0"
+
+  separator:
+    type: "yasb.custom.CustomWidget"
+    options: 
+      label: "|"
+      label_alt: "|"
+      class_name: "separator-widget"
