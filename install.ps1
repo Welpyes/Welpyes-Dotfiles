@@ -22,7 +22,6 @@ if ($response -eq 'y') {
     Move-Item $env:USERPROFILE\welpyes-dotfiles\uninstall.ps1 $env:USERPROFILE
     Write-Host "To run the status bar you can just run the run-silent.vbs file" -ForegroundColor Blue
     Write-Host "You can also make your own batch file if you can" -ForegroundColor Blue
-    Write-Host "i dont really know the dependencies of CAVA but you can go to their github page to know" -ForegroundColor Blue
     Remove-Item -Path "$env:USERPROFILE\welpyes-dotfiles\install.ps1"
     Set-Location -Path "$env:USERPROFILE"
     explorer $env:USERPROFILE\welpyes-dotfiles
