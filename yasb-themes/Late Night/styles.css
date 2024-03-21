@@ -1,0 +1,206 @@
+* {
+    /* Bar measurement icons: https://github.com/and3rson/graph-bars-font */
+    /* Icon set: https://fontawesome.com/v5.15/how-to-use/on-the-desktop/setup/getting-started */
+    font-family: 'jetbrainsmono nerd font';
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.bar {
+    background: rgba(49, 49, 49, 0.6);
+    border: 0px solid #494949;
+    border-radius: 7px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 2; 
+    padding-right: 2;
+}
+
+.container-right .label {
+  border-radius: 15px;
+  color: #C0CAF5;
+}
+
+.container-left .label {
+  border-radius: 15px;
+  color: rgb(106, 146, 215);
+}
+
+.container-left .widget * {
+  border-radius: 15px
+}
+.container-right .widget * {
+  color: #C0CAF5;
+  border-radius: 15px
+}
+.komorebi-workspaces {
+  margin-left: 0;
+  color: #dadada;
+  background: rgba(27, 36, 43, 1);
+  border-radius: 13px;
+  margin-right: 5;
+}
+.ws-btn {
+    padding: 20px;
+    color: #dadada;
+    background: rgba(41, 43, 65, 0);
+    border: 0px solid rgb(126, 172, 197);
+    margin: 1px 2px;
+    font-size: 14px;
+    border-radius: 14px;
+}
+
+.ws-btn:hover {
+    color: #dadada;
+    background: rgba(114, 92, 173, 0);
+    font-weight: bold;
+}
+
+.ws-btn.populated {
+    border: 0px solid rgb(126, 172, 197);
+    color: #dadada;
+    margin: 1px 2px;
+}
+
+.ws-btn.active {
+    color: #4795fa;
+    background: rgba(114, 92, 173, 0);
+    margin: 1px 2px;
+}
+
+.custom-widget {
+  color: #dadada;
+  font-size: 14px;
+  background: rgba(27, 36, 43, 1);
+  border: 0px solid rgb(126, 172, 197);
+  border-radius: 13px;
+  padding-bottom: -1px;
+  margin: 0px 5px 0px 0px;
+  padding-right: 8;
+  padding-left: 8;
+  padding-bottom: 1
+}
+.custom-widget .icon {
+  font-size: 13px;
+}
+.custom-widget .label {
+  margin: 0px 0px 0px 0px;
+  margin-left: -1;
+}
+.custom-widget:hover {
+  background: rgba(192, 192, 192, 0);
+}
+.custom-widget .icon.icon-left {
+    margin-right: 0px;
+}
+.custom-widget .icon.icon-right {
+    margin-left: 0px;
+}
+.custom-widget.hostname-widget {
+    background: rgba(0, 0, 0, 0.0);
+}
+
+.custom-widget.terminal-widget {
+    font-size: 14px;
+}
+
+.cpu-widget .label,
+.wifi-widget .label,
+.memory-widget .label,
+.traffic-widget .label,
+.battery-widget .label {
+  color: #e9dcfa;
+  font-size: 14px;
+  background: rgba(27, 36, 43, 1);
+  border: 0px solid rgb(126, 172, 197);
+  border-radius: 13px;
+  padding-bottom: -1px;
+  margin: 0px 5px 0px 0px;
+  padding-right: 8;
+  padding-left: 8;
+  padding-bottom: 1
+}
+
+.traffic-widget .label {
+  color: #8FBCBB;
+  background: rgba(27, 36, 43, 1);
+}
+
+.wifi-widget .label {
+  background: rgba(27, 36, 43, 1);
+  color: #B48EAD;
+}
+
+.cpu-widget .label {
+  color: rgb(251, 139, 131);
+  background: rgba(27, 36, 43, 1);
+  padding: 0px 0px 0 0px;
+}
+
+.battery-widget .label.status-critical {
+  background: #fb4934;
+}
+.battery-widget .label.status-low {
+  background: #fe8019;
+}
+.battery-widget .label.status-medium {
+  background: #fabd2f;
+}
+.battery-widget .label.status-high {
+  background: #b8bb26;
+}
+.battery-widget .label.status-full {
+  background: #8ec07c;
+}
+.battery-widget .label.status-charging {
+  background: #8ec07c;
+}
+.battery-widget,
+.memory-widget {
+  margin: 0;
+}
+
+.memory-widget .label {
+  color: rgb(235, 203, 139);
+  font-size: 14px;
+  background: rgba(27, 36, 43, 1);
+  border: 0px solid rgb(126, 172, 197);
+  border-radius: 15px;
+  padding-bottom: 0px;
+  margin: 0px 5px 0px 0px;
+  padding-right: 5;
+  padding-left: 5
+}
+.active-window-widget {
+  margin-left: 5px;
+}
+.active-window-widget .label {
+  color: #e9dcfa;
+  font-size: 13px;
+  background: rgba(27, 36, 43, 1);
+  border: 2px solid rgb(126, 172, 197);
+  border-radius: 13px;
+  margin: 0px 5px 0px 3px;
+  padding-right: 8;
+  padding-left: 8;
+  padding-bottom: -1
+}
+
+.komorebi-active-layout .label {
+  color: #9fa0d4;
+  margin: -4px 2px 2px 8px;
+  font-family: Hack;
+}
+
+.clock-widget .label {
+  color: rgb(191, 97, 106);
+  font-size: 14px;
+  background: #1b242b;
+  border: 0px solid rgb(126, 172, 197);
+  border-radius: 15px;
+  padding-bottom: 0px;
+  margin: 0px 5px 0px 0px;
+  padding-right: 5;
+  padding-left: 5
+}
