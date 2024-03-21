@@ -6,10 +6,10 @@
 - **Status Bar:** [yasb](https://github.com/da-rth/yasb)
 - **Application Launcher:** [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher)
 - **Theme Patchers:** [UltraUX Theme Patcher](https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en) & [WinAero Tweaker](https://winaero.com/downloads/winaerotweaker.zip)
-- **Theme:** [Dark by KDr3w)](https://www.deviantart.com/kdr3w/art/Dark-845402016)
-- **Cursor:** [Blue Archive Cursor](https://github.com/makipom/BlueArchive-Cursors)
 - **Fetch:** [Fetch](https://github.com/Hexality/fetch) by [@Hexality](https://github.com/Hexality)
- 
+- **Tiling WM:** [Komorebi](https://github.com/LGUG2Z/komorebi)
+
+
 <br><img width="800-" align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/assets/110968684/5190f629-5dec-4493-a2e2-9d9bcb60786a">
 
 <details>
