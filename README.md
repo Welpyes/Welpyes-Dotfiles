@@ -1,4 +1,4 @@
-<h1 align="center">Amogus Files
+<h1 align="center">Winland?
 <br><h4 align="center">I put everything i use here to make windows up my fancy<br>
 
 ## info
