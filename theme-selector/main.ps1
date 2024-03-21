@@ -33,6 +33,7 @@ switch ($themes[$selection-1]) {
         Copy-Item "$env:USERPROFILE\welpyes-dotfiles\yasb-themes\simple\styles.css" "$env:USERPROFILE\.yasb\"
         Write-Host "You selected the 'simple' theme."
         cd ~
+		      ./welpyes-dotfiles\theme-selector\simple-wallpaper.ps1
         ./welpyes-dotfiles\restart.ps1
         ./welpyes-dotfiles\theme-selector\main.ps1
     }
@@ -44,6 +45,7 @@ switch ($themes[$selection-1]) {
         Copy-Item "$env:USERPROFILE\welpyes-dotfiles\yasb-themes\Daydream\styles.css" "$env:USERPROFILE\.yasb\"
         Write-Host "You selected the 'Daydream' theme."
         cd ~
+		      ./welpyes-dotfiles\theme-selector\daydream-wallpaper.ps1
         ./welpyes-dotfiles\restart.ps1
         ./welpyes-dotfiles\theme-selector\main.ps1
     }
@@ -55,6 +57,7 @@ switch ($themes[$selection-1]) {
         Copy-Item "$env:USERPROFILE\welpyes-dotfiles\yasb-themes\late night\styles.css" "$env:USERPROFILE\.yasb\"
         Write-Host "You selected the 'Late Night' theme."
         cd ~
+		      ./welpyes-dotfiles\theme-selector\latenight-wallpaper.ps1
         ./welpyes-dotfiles\restart.ps1
         ./welpyes-dotfiles\theme-selector\main.ps1
     }
