@@ -26,6 +26,11 @@
 ```
 irm https://raw.githubusercontent.com/Welpyes/Welpyes-Dotfiles/main/install.ps1 | iex
 ```
+to change themes you can use this command
+```
+./welpyes-dotfiles\theme-selector\main.ps1
+```
+
 
 <br> after you installed them you can run the `run-silent.vbs` in the `c:\users\{your username}\welpyes-dotfiles` and you should be good to go
 
