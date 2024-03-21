@@ -1,8 +1,7 @@
 <h1 align="center">Amogus Files
 <br><h4 align="center">I put everything i use here to make windows up my fancy<br>
  
-<br><img width="800-" align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/assets/110968684/834121e9-82c2-47f7-a52b-ee7abf428187">
-
+<br><img width="800-" align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/assets/110968684/5190f629-5dec-4493-a2e2-9d9bcb60786a">
 
 ## info
 - **Operating System:** Windows 11
