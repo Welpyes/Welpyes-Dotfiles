@@ -9,6 +9,10 @@
 - **Fetch:** [Fetch](https://github.com/Hexality/fetch) by [@Hexality](https://github.com/Hexality)
 - **Tiling WM:** [Komorebi](https://github.com/LGUG2Z/komorebi)
 
+## What does this dotfiles contain?
+it contains the installation of my status bar [yasb](https://github.com/da-rth/yasb) and its themes
+
+
 
 <br><img width="800-" align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/assets/110968684/5190f629-5dec-4493-a2e2-9d9bcb60786a">
 
