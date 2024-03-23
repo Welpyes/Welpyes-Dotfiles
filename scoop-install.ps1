@@ -1,4 +1,4 @@
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+irm -Uri https://get.scoop.sh | iex
 
 .$profile
 scoop update
