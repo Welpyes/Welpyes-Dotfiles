@@ -25,8 +25,9 @@ it contains the installation of my status bar [yasb](https://github.com/da-rth/y
 - You have Jetbrains [Nerdfonts](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip) installed
 <br><b>all of these can be installed using [scoop](https://scoop.sh/)</b>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Nl8l1LyBucw/0.jpg%29)](https://www.youtube.com/watch?v=Nl8l1LyBucw)
 
+#### This is the tutorial(click this image)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Nl8l1LyBucw/0.jpg)](https://www.youtube.com/watch?v=Nl8l1LyBucw)
 
 
 <details>
