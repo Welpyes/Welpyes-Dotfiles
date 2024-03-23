@@ -38,11 +38,18 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 and this to a normal one
 ```
-irm https://github.com/Welpyes/Welpyes-Dotfiles/blob/main/scoop-install.ps1 | iex
+irm -Uri https://get.scoop.sh | iex
+
+scoop install git
+scoop update
+scoop bucket add extras
+scoop bucket add nerd-fonts
+
+scoop install python jetbrainsmono-nf
 ```
 </details>
 
-<b>this script only installs [yasb](https://github.com/da-rth/yasb)
+### Yasb install
 
 ```
 irm https://raw.githubusercontent.com/Welpyes/Welpyes-Dotfiles/main/install.ps1 | iex
