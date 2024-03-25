@@ -19,6 +19,8 @@ it contains the installation of my status bar **yasb** and its themes as well as
 <details>
 <summary><h2>HOW TO INSTALL</h3></summary>
 
+#### you NEED to have the latest[Powershell](https://github.com/PowerShell/PowerShell) for this install to work
+
 Run this command to an elevated Powershell tab
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
