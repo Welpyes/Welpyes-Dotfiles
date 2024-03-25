@@ -16,10 +16,10 @@ $question1 = "do you want to install yasb and its python dependencies do you wan
 $response1 = Read-Host -Prompt $question1
 $question2 = "do you want to install scoop(y/n)"
 $response2 = Read-Host -Prompt $question2
+Write-Host "if you put 'n' in the last prompt make sure to have scoop installed to install the apps listed below" -ForegroundColor Cyan
 $question4 = "do you want to install python and the nerdfonts required?"
 $response4 = Read-Host -Prompt $question4
 $winland = "do you want to install komorebi, alt+drag, fetch and flow-launcher? (y/n)"
-Write-Host "if you put 'n' in the last prompt make sure to have scoop installed to install the apps listed below" -ForegroundColor Cyan
 $response3 = Read-Host -Prompt $winland
 
 
