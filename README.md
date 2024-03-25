@@ -3,13 +3,13 @@
 
 ## info
 - **Operating System:** Windows 11
-- **Status Bar:** [yasb](https://github.com/da-rth/yasb) crossplatform WOOOOO 🔥🔥🔥
-- **Terminal:** [Windows Terminal](https://github.com/microsoft/terminal) riced terminal 🍚🍚
-- **Shell:** [Powershell](https://github.com/PowerShell/PowerShell) very good crossplatform shell 🐚
-- **Application Launcher:** [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) quick to index and very customizable ⚡
-- **Theme Patchers:** [UltraUX Theme Patcher](https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en) & [WinAero Tweaker](https://winaero.com/downloads/winaerotweaker.zip) to make windows look cool 😎⚙️
-- **Fetch:** [Fetch](https://github.com/Hexality/fetch) by [@Hexality](https://github.com/Hexality) similar to neofetch but for powershell⚙️ℹ️
-- **Tiling WM:** [Komorebi](https://github.com/LGUG2Z/komorebi) tiling window manager for windows 🎆🖥️🎆
+- **Status Bar:** [yasb](https://github.com/da-rth/yasb) 🔥🔥🔥 crossplatform WOOOOO
+- **Terminal:** [Windows Terminal](https://github.com/microsoft/terminal) 🍚🍚 riced terminal 
+- **Shell:** [Powershell](https://github.com/PowerShell/PowerShell) 🐚 very good crossplatform shell 
+- **Application Launcher:** [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) ⚡🔍⚡ quick to index and very customizable 
+- **Theme Patchers:** [UltraUX Theme Patcher](https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en) & [WinAero Tweaker](https://winaero.com/downloads/winaerotweaker.zip) 😎⚙️ to make windows look cool 
+- **Fetch:** [Fetch](https://github.com/Hexality/fetch) by [@Hexality](https://github.com/Hexality) ⚙️ℹ️ similar to neofetch but for powershell
+- **Tiling WM:** [Komorebi](https://github.com/LGUG2Z/komorebi) 🎆🖥️🎆 tiling window manager for windows 
 
 ## What does this dotfiles contain?
 it contains the installation of my status bar **yasb** and its themes as well as **flow-launcher, fetch, komorebi and altdrag** 
