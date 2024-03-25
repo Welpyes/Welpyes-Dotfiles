@@ -1,6 +1,7 @@
 <h1 align="center">Winland
 <br><h4 align="center">I put everything i use here to make windows up my fancy<br>
 
+
 ## info
 - **Operating System:** Windows 11
 - **Status Bar:** [yasb](https://github.com/da-rth/yasb) 🔥🔥🔥 crossplatform WOOOOO
@@ -11,10 +12,11 @@
 - **Fetch:** [Fetch](https://github.com/Hexality/fetch) by [@Hexality](https://github.com/Hexality) ⚙️ℹ️ similar to neofetch but for powershell
 - **Tiling WM:** [Komorebi](https://github.com/LGUG2Z/komorebi) 🎆🖥️🎆 tiling window manager for windows 
 
-## What does this dotfiles contain?
-it contains the installation of my status bar **yasb** and its themes as well as **flow-launcher, fetch, komorebi and altdrag** 
-
+## Main Screenshot
 <br><img width="800-" align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/assets/110968684/5190f629-5dec-4493-a2e2-9d9bcb60786a">
+
+## What does this dotfiles contain?
+it contains the installation of my status bar **yasb** and its themes as well as **flow-launcher, fetch, komorebi and altdrag**
 
 <details>
 <summary><h2>Screenshots</h3></summary>
