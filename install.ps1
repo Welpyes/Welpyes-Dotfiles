@@ -40,7 +40,7 @@ if ($response3 -eq 'y') {
     if ($response2 -eq 'n'){
         scoop bucket add extras
     }
-    scoop install komorebi whkd altdrag flow-launcher
+    scoop install komorebi whkd altsnap flow-launcher
     komorebic quickstart
     Invoke-RestMethod https://raw.githubusercontent.com/Hexality/fetch/main/install.ps1 | Invoke-Expression
     .$profile
