@@ -17,6 +17,12 @@ it contains the installation of my status bar **yasb** and its themes as well as
 <br><img width="800-" align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/assets/110968684/5190f629-5dec-4493-a2e2-9d9bcb60786a">
 
 <details>
+<summary><h2>Screenshots</h3></summary>
+
+
+</details>
+
+<details>
 <summary><h2>HOW TO INSTALL</h3></summary>
 
 #### you NEED to have the latest [Powershell](https://github.com/PowerShell/PowerShell) for this install to work
