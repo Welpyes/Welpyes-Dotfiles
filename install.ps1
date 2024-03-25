@@ -14,8 +14,10 @@ if ($important_answer -eq 'n') {exit}
 
 $question1 = "do you want to install yasb and its python dependencies do you want to proceed? (y/n)"
 $response1 = Read-Host -Prompt $question1
-$question2 = "do you want to install scoop and all the dependencies? (y/n)"
+$question2 = "do you want to install scoop(y/n)"
 $response2 = Read-Host -Prompt $question2
+$question4 = "do you want to install python and the nerdfonts required?"
+$response4 = Read-Host -Prompt $question4
 $winland = "do you want to install komorebi, alt+drag, fetch and flow-launcher? (y/n)"
 Write-Host "if you put 'n' in the last prompt make sure to have scoop installed to install the apps listed below" -ForegroundColor Cyan
 $response3 = Read-Host -Prompt $winland
@@ -25,15 +27,19 @@ if ($response2 -eq 'y') {
     Write-Host "installing scoop and dependencies" -ForegroundColor Green
     Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
     scoop install git
+} else {
+    Write-Host "skipping scoop installation"
+}
+
+if ($response4 -eq 'y') {
+    Write-Host "installing python and the nerdfonts required..." -ForegroundColor Green
     scoop update
     scoop bucket add extras
     scoop bucket add nerd-fonts
     scoop install python JetBrainsMono-NF
-
 } else {
-    Write-Host "skipping scoop and dependencies installation"
+    Write-Host "skipping python and nerdfonts installation"
 }
-
 
 if ($response3 -eq 'y') {
     Write-Host "installing komorebi, alt+drag, fetch and flow-launcher" -ForegroundColor Green
