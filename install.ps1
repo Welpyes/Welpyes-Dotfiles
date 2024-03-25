@@ -21,7 +21,7 @@ if ($response -eq 'y') {
     Clear-Host
     Move-Item $env:USERPROFILE\welpyes-dotfiles\uninstall.ps1 $env:USERPROFILE
     Write-Host "To run the status bar you can just run the run-silent.vbs file" -ForegroundColor Blue
-    Write-Host "You can also make your own batch file if you can" -ForegroundColor Blue
+    Write-Host "you can change the theme by using ./welpyes-dotfiles\theme-selector\main.ps1 in powershell" -ForegroundColor Blue
     Remove-Item -Path "$env:USERPROFILE\welpyes-dotfiles\install.ps1"
     Set-Location -Path "$env:USERPROFILE"
     explorer $env:USERPROFILE\welpyes-dotfiles
