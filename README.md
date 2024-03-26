@@ -52,10 +52,10 @@ irm https://raw.githubusercontent.com/Welpyes/Welpyes-Dotfiles/main/install.ps1 
 
   apps that i feel like doesnt belong from anything above
 - [altsnap](https://github.com/RamonUnch/AltSnap) ▪ Window manipulation using the alt key
-- [quick look](https://github.com/QL-Win/QuickLook) ▪ Brings Quicklook to windows from MacOs
+- [quick look](https://github.com/QL-Win/QuickLook) ▪ Brings Quicklook to Windows from MacOs
 - [vencord](https://vencord.dev/) ▪ Cutest Discord Client -w-
 - [greenshot](https://github.com/greenshot/greenshot) ▪ Screenshotting application
-- [Yt Music](https://github.com/th-ch/youtube-music) ▪ A yt music client with a bunch of plugins
+- [Yt Music](https://github.com/th-ch/youtube-music) ▪ A YT music client with a bunch of plugins
 
 </details>
 
