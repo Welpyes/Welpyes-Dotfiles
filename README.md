@@ -19,24 +19,19 @@
 it contains the installation of my status bar **yasb** and its themes as well as **flow-launcher, fetch, komorebi and altdrag**
 
 <details>
-<summary><h2>Screenshots</h3></summary>
+<summary><b>Screenshots<b></summary>
 
 **click the links**
-themes:
+<br>themes:
 - [**Simple**](https://github.com/Welpyes/dotfiles-resource/blob/main/1.png)
 - [**Black & White**](https://github.com/Welpyes/dotfiles-resource/blob/main/2.png)
 - [**Late Night**](https://github.com/Welpyes/dotfiles-resource/blob/main/3.png)
 - [**Day Dream**](https://github.com/Welpyes/dotfiles-resource/blob/main/4.png)
 
-
-
-
-
-
 </details>
 
 <details>
-<summary><h2>HOW TO INSTALL</h3></summary>
+<summary><b>HOW TO INSTALL</b></summary>
 
 #### you NEED to have the latest [Powershell](https://github.com/PowerShell/PowerShell) for this install to work
 
@@ -50,3 +45,16 @@ irm https://raw.githubusercontent.com/Welpyes/Welpyes-Dotfiles/main/install.ps1 
 ```
 
 </details>
+
+<details>
+<summary><b>additional apps</b></summary>
+
+  apps that i feel like doesnt belong from anything above
+- [altsnap](https://github.com/RamonUnch/AltSnap) ▪ Window manipulation using the alt key
+- [quick look](https://github.com/QL-Win/QuickLook) ▪ Brings Quicklook to windows from MacOs
+- [vencord](https://vencord.dev/) ▪ Cutest Discord Client -w-
+- [greenshot](https://github.com/greenshot/greenshot) ▪ Screenshotting application
+- [Yt Music](https://github.com/th-ch/youtube-music) ▪ A yt music client with a bunch of plugins
+
+</details>
+
