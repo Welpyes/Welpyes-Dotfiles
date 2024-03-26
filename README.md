@@ -10,7 +10,8 @@
 - **Application Launcher:** [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) ⚡🔍⚡ quick to index and very customizable 
 - **Theme Patchers:** [UltraUX Theme Patcher](https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en) & [WinAero Tweaker](https://winaero.com/downloads/winaerotweaker.zip) 😎⚙️ to make windows look cool 
 - **Fetch:** [Fetch](https://github.com/Hexality/fetch) by [@Hexality](https://github.com/Hexality) ⚙️ℹ️ similar to neofetch but for powershell
-- **Tiling WM:** [Komorebi](https://github.com/LGUG2Z/komorebi) 🎆🖥️🎆 tiling window manager for windows 
+- **Tiling WM:** [Komorebi](https://github.com/LGUG2Z/komorebi) 🎆🖥️🎆 tiling window manager for windows
+- **Code editor/IDE:** [Neovim](https://github.com/neovim/neovim) + [NvChad](https://github.com/NvChad/NvChad)
 
 ## Main Screenshot
 <br><img width="800-" align="center" src="https://github.com/Welpyes/dotfiles-resource/blob/main/5.png">
