@@ -16,11 +16,8 @@
 ## Main Screenshot
 <br><img width="800-" align="center" src="https://github.com/Welpyes/dotfiles-resource/blob/main/5.png">
 
-## What does this dotfiles contain?
-it contains the installation of my status bar **yasb** and its themes as well as **flow-launcher, fetch, komorebi and altdrag**
-
 <details>
-<summary><b>Screenshots<b></summary>
+<summary><b>MOAR Screenshots<b></summary>
 
 **click the links**
 <br>themes:
@@ -30,6 +27,10 @@ it contains the installation of my status bar **yasb** and its themes as well as
 - [**Day Dream**](https://github.com/Welpyes/dotfiles-resource/blob/main/4.png)
 
 </details>
+
+
+## What does this dotfiles contain?
+it contains the installation of my status bar **yasb** and its themes as well as **flow-launcher, fetch, komorebi and altdrag**
 
 <details>
 <summary><b>HOW TO INSTALL</b></summary>
