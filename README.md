@@ -13,13 +13,24 @@
 - **Tiling WM:** [Komorebi](https://github.com/LGUG2Z/komorebi) 🎆🖥️🎆 tiling window manager for windows 
 
 ## Main Screenshot
-<br><img width="800-" align="center" src="https://github.com/Welpyes/Welpyes-Dotfiles/assets/110968684/5190f629-5dec-4493-a2e2-9d9bcb60786a">
+<br><img width="800-" align="center" src="https://github.com/Welpyes/dotfiles-resource/blob/main/5.png">
 
 ## What does this dotfiles contain?
 it contains the installation of my status bar **yasb** and its themes as well as **flow-launcher, fetch, komorebi and altdrag**
 
 <details>
 <summary><h2>Screenshots</h3></summary>
+
+**click the links**
+themes:
+- [**Simple**](https://github.com/Welpyes/dotfiles-resource/blob/main/1.png)
+- [**Black & White**](https://github.com/Welpyes/dotfiles-resource/blob/main/2.png)
+- [**Late Night**](https://github.com/Welpyes/dotfiles-resource/blob/main/3.png)
+- [**Day Dream**](https://github.com/Welpyes/dotfiles-resource/blob/main/4.png)
+
+
+
+
 
 
 </details>
