@@ -12,7 +12,7 @@ $logo = @"
 Write-Host $logo
 
 # Define the options
-$themes = @("simple", "Daydream", "Late Night", "Black & White", "Exit")
+$themes = @("simple", "Daydream", "Late Night", "Black & White", "Red & Black", "Exit")
 
 # Create a menu
 Write-Host "Select yasb theme"
@@ -58,6 +58,18 @@ switch ($themes[$selection-1]) {
         Write-Host "You selected the 'Black & White' theme."
         set-location ~
 		./welpyes-dotfiles\theme-selector\blackandwhite-wallpaper.ps1
+        ./welpyes-dotfiles\restart.ps1
+        ./welpyes-dotfiles\theme-selector\main.ps1
+    }
+    "Red & Black" {
+        Write-Host "applying 'Red & Black' theme..."
+        Remove-Item "$env:USERPROFILE\.yasb\config.yaml"
+        Remove-Item "$env:USERPROFILE\.yasb\styles.css"
+        Copy-Item "$env:USERPROFILE\welpyes-dotfiles\yasb-themes\red and black\config.yaml" "$env:USERPROFILE\.yasb\"
+        Copy-Item "$env:USERPROFILE\welpyes-dotfiles\yasb-themes\red and black\styles.css" "$env:USERPROFILE\.yasb\"
+        Write-Host "You selected the 'Black & White' theme."
+        set-location ~
+		./welpyes-dotfiles\theme-selector\Redandblack-wallpaper.ps1
         ./welpyes-dotfiles\restart.ps1
         ./welpyes-dotfiles\theme-selector\main.ps1
     }

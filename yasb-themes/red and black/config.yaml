@@ -79,7 +79,7 @@ bars:
       position: "top"
       center: true
     blur_effect:
-      enabled: false
+      enabled: true
       acrylic: false
       dark: false
     window_flags:
@@ -415,7 +415,7 @@ widgets:
   komorebi_workspaces:
     type: "komorebi.workspaces.WorkspaceWidget"
     options:
-        label_offline: " \ueabc \ueabc \ueabc \ueabc \ueabc "
+        label_offline: " \uea71 \uea71 \uea71 \uea71 \uea71 "
         label_workspace_btn: "\uea71"
         label_default_name: "\uea71"
         label_zero_index: false
