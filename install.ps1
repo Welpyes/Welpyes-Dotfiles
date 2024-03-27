@@ -10,7 +10,6 @@ Write-host ""
 $important_question = "DO YOU HAVE POWERSHELL 7? (y/n)"
 $important_answer = Read-Host -Prompt $important_question
 $pwsh7_install = "Do you want to install powershell 7?(the rest of the script wont work without it) (y/n):"
-$pwsh7 = Read-Host -Prompt $pwsh7_install
 
 if ($important_answer -eq 'n') {
     $pwsh7 = Read-Host -Prompt $pwsh7_install
