@@ -9,8 +9,17 @@ Write-Host "     \/  \/   |_|_| |_|_|\__,_|_| |_|\__,_|  |_____|_| |_|___/\__\__
 Write-host ""
 $important_question = "DO YOU HAVE POWERSHELL 7? (y/n)"
 $important_answer = Read-Host -Prompt $important_question
+$pwsh7_install = "Do you want to install powershell 7?(the rest of the script wont work without it) (y/n):"
+$pwsh7 = Read-Host -Prompt $pwsh7_install
 
-if ($important_answer -eq 'n') {exit}
+if ($important_answer -eq 'n') {
+    $pwsh7 = Read-Host -Prompt $pwsh7_install
+    if ($pwsh7 -eq 'y') {
+       winget install Microsoft.PowerShell
+       pwsh
+       irm https://raw.githubusercontent.com/Welpyes/Welpyes-Dotfiles/main/install.ps1 | iex
+    } else {exit}
+}
 
 $question1 = "do you want to install yasb and its python dependencies do you want to proceed? (y/n)"
 $response1 = Read-Host -Prompt $question1
