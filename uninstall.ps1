@@ -10,6 +10,7 @@ if ($response -eq 'y') {
     Remove-Item -Recurse -Force "$env:USERPROFILE\welpyes-yasb"
     Remove-Item -Recurse -Force "$env:USERPROFILE\welpyes-dotfiles"
     Remove-Item -Recurse -Force "$env:USERPROFILE\.yasb"
+    Remove-Item -Recurse -Force "$env:USERPROFILE\uninstall.ps1"
 } else {
     Write-Host "uninstallation cancelled."
 }
