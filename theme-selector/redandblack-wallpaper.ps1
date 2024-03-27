@@ -12,5 +12,5 @@ $SPI_SETDESKWALLPAPER = 0x0014
 $UpdateIniFile = 0x01
 $SendChange = 0x02
 
-$wallpaperPath = "$env:USERPROFILE\welpyes-dotfiles\yasb-themes\red and black\wallpaper.jpg"
+$wallpaperPath = "$env:USERPROFILE\welpyes-dotfiles\yasb-themes\red and black\wallpaper.png"
 [Wallpaper]::SystemParametersInfo($SPI_SETDESKWALLPAPER, 0, $wallpaperPath, $UpdateIniFile -bor $SendChange)
