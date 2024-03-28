@@ -29,8 +29,7 @@
 </details>
 
 
-## What does this dotfiles contain?
-it contains the installation of my status bar **yasb** and its themes as well as **flow-launcher, fetch, komorebi and altdrag**
+## Installation and Apps used
 
 <details>
 <summary><b>HOW TO INSTALL</b></summary>
