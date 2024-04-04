@@ -32,11 +32,63 @@
 ## Installation and Apps used
 
 <details>
-<summary><b>HOW TO INSTALL</b></summary>
+<summary><b>FOR WINDOWS 10 USERS!!!</b></summary>
 
-#### you NEED to have the latest [Powershell](https://github.com/PowerShell/PowerShell) for this install to work
+<br>theres a bug on windows 10 atm that fucks with your scoop installation so you have to install them manually
+<br>heres a guide on how to do it
 
-Run this command on an elevated Powershell tab
+<br>If you dont have powershell 7, install it with this command:
+```
+winget install Microsoft.PowerShell
+```
+If you dont have scoop and the necessary buckets, install it with these commands:
+```
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+scoop install git
+scoop bucket add extras
+scoop bucket add nerd-fonts
+scoop update
+```
+**OPTIONAL** installing the misc apps using scoop
+```
+scoop install komorebi whkd altsnap flow-launcher
+```
+installing my status bar
+```
+    Set-Location -Path "$env:USERPROFILE"
+    git clone https://github.com/Welpyes/Welpyes-Dotfiles
+    mkdir "$env:USERPROFILE\.yasb"
+    Copy-Item "$env:USERPROFILE\welpyes-dotfiles\yasb-themes\simple\config.yaml" "$env:USERPROFILE\.yasb\"
+    Copy-Item "$env:USERPROFILE\welpyes-dotfiles\yasb-themes\simple\styles.css" "$env:USERPROFILE\.yasb\"
+    git clone https://github.com/Welpyes/welpyes-yasb
+    Set-Location -Path "$env:USERPROFILE\welpyes-yasb"
+    pip install -r requirements.txt
+    Move-Item $env:USERPROFILE\welpyes-dotfiles\uninstall.ps1 $env:USERPROFILE
+    Remove-Item -Path "$env:USERPROFILE\welpyes-dotfiles\install.ps1"
+    Set-Location -Path "$env:USERPROFILE"
+    Copy-Item "welpyes-dotfiles\run-silent.vbs" "desktop" 
+    ./welpyes-dotfiles\run-silent.vbs
+```
+the installation is finished after that
+<br>if you want the bar to run at startup put the `run-silent.vbs` in `shell:startup`
+<br>to change the theme you can run:
+```
+./welpyes-dotfiles\theme-selector\main.ps1
+```
+
+</details>
+
+
+
+<details>
+<summary><b>HOW TO INSTALL(windows 11)</b></summary>
+<br>
+<br>for optimal installation please make sure your windows installation is updated
+<br>
+<br>
+<br>Run this command on an elevated Powershell tab
+
+
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
