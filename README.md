@@ -51,6 +51,7 @@ scoop install git
 scoop bucket add extras
 scoop bucket add nerd-fonts
 scoop update
+scoop install python JetBrainsMono-NF
 ```
 **OPTIONAL** installing the misc apps using scoop
 ```
