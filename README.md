@@ -41,9 +41,12 @@
 ```
 winget install Microsoft.PowerShell
 ```
-If you dont have scoop and the necessary buckets, install it with these commands:
+If you dont have scoop install it using this command. please restart your shell after installing scoop
 ```
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
+then install the buckets and git
+```
 scoop install git
 scoop bucket add extras
 scoop bucket add nerd-fonts
@@ -55,19 +58,19 @@ scoop install komorebi whkd altsnap flow-launcher
 ```
 installing my status bar
 ```
-    Set-Location -Path "$env:USERPROFILE"
-    git clone https://github.com/Welpyes/Welpyes-Dotfiles
-    mkdir "$env:USERPROFILE\.yasb"
-    Copy-Item "$env:USERPROFILE\welpyes-dotfiles\yasb-themes\simple\config.yaml" "$env:USERPROFILE\.yasb\"
-    Copy-Item "$env:USERPROFILE\welpyes-dotfiles\yasb-themes\simple\styles.css" "$env:USERPROFILE\.yasb\"
-    git clone https://github.com/Welpyes/welpyes-yasb
-    Set-Location -Path "$env:USERPROFILE\welpyes-yasb"
-    pip install -r requirements.txt
-    Move-Item $env:USERPROFILE\welpyes-dotfiles\uninstall.ps1 $env:USERPROFILE
-    Remove-Item -Path "$env:USERPROFILE\welpyes-dotfiles\install.ps1"
-    Set-Location -Path "$env:USERPROFILE"
-    Copy-Item "welpyes-dotfiles\run-silent.vbs" "desktop" 
-    ./welpyes-dotfiles\run-silent.vbs
+Set-Location -Path "$env:USERPROFILE"
+git clone https://github.com/Welpyes/Welpyes-Dotfiles
+mkdir "$env:USERPROFILE\.yasb"
+Copy-Item "$env:USERPROFILE\welpyes-dotfiles\yasb-themes\simple\config.yaml" "$env:USERPROFILE\.yasb\"
+Copy-Item "$env:USERPROFILE\welpyes-dotfiles\yasb-themes\simple\styles.css" "$env:USERPROFILE\.yasb\"
+git clone https://github.com/Welpyes/welpyes-yasb
+Set-Location -Path "$env:USERPROFILE\welpyes-yasb"
+pip install -r requirements.txt
+Move-Item $env:USERPROFILE\welpyes-dotfiles\uninstall.ps1 $env:USERPROFILE
+Remove-Item -Path "$env:USERPROFILE\welpyes-dotfiles\install.ps1"
+Set-Location -Path "$env:USERPROFILE"
+Copy-Item "welpyes-dotfiles\run-silent.vbs" "desktop" 
+./welpyes-dotfiles\run-silent.vbs
 ```
 the installation is finished after that
 <br>if you want the bar to run at startup put the `run-silent.vbs` in `shell:startup`
